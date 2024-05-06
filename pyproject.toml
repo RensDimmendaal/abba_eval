@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "abba-eval"
+version = "0.1.0"
+description = ""
+authors = ["Rens Dimmendaal <rens@dimmendaal.com>"]
+readme = "README.md"
+packages = [{include = "abba_eval", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.7.0"
+litellm = "^1.35.18"
+python-dotenv = "^1.0.1"
+ipykernel = "^6.29.4"
+boto3 = "^1.34.88"
+instructor = "^1.2.2"
+memo = "^0.2.3"
+numpy = "^1.26.4"
+tqdm = "^4.66.2"
+pyyaml = "^6.0.1"
+pandas = "^2.2.2"
+plotnine = "^0.13.4"
+ipywidgets = "^8.1.2"
+google-cloud-aiplatform = "^1.48.0"
+jupyterlab = "^4.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
