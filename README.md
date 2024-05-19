@@ -4,9 +4,12 @@ This repo showcases a simple (and silly?) LLM eval:
 
 > Can the LLM generate a four line poem that follows the ABBA rhyme scheme?
 
+[Read the blogpost with more context.](https://xebia.com/blog/lessons-learned-from-a-diy-llm-benchmark/)
+
 ## Results
 
-![](https://github.com/rensdimmendaal/abba_eval/blob/main/output/results.png?raw=true)
+![results](https://github.com/rensdimmendaal/abba_eval/blob/main/output/results.png?raw=true)
+
 ## Background
 
 The ABBA rhyme scheme is a four-line poem where the first and last lines rhyme, and the second and third lines rhyme. 
@@ -22,7 +25,7 @@ Fostering creativity and inspiration. (A)
 ## The Challenge
 
 Can you use LLMs to generate ABBA poems? If so, how?
-Out of the box today only Claude 3 Opus somewhat reliably generates ABBA poems.
+Out of the box today only GPT-4o does an excellent job out of the box.
 But there are prompting tricks you can apply to make smaller models generate ABBA poems as well.
 
 ## Repo
