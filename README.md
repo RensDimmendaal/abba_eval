@@ -4,6 +4,9 @@ This repo showcases a simple (and silly?) LLM eval:
 
 > Can the LLM generate a four line poem that follows the ABBA rhyme scheme?
 
+## Results
+
+![](https://github.com/rensdimmendaal/abba_eval/blob/main/output/results.png?raw=true)
 ## Background
 
 The ABBA rhyme scheme is a four-line poem where the first and last lines rhyme, and the second and third lines rhyme. 
