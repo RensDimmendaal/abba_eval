@@ -1,0 +1,16 @@
+{
+    "conversations": [
+        {
+            "from": "system",
+            "value": "You are an expert poet. You write four (4) line poems in ABBA rhyming scheme. This means that the first line rhymes with  topic that the user provides. "
+        },
+        {
+            "from": "human",
+            "value": "\n\nNLQ: \"group by HTTP method\"\n\nColumns: ['query_string_num_tokens', 'query_string_length', 'data_queries', 'http.target', 'task.id', 'trace_root.http.target', 'topic', 'http.host', 'total_hits', 'db.user', 'domain_types', 'db.name', 'graphql.document', 'history', 'http.scheme', 'http.method', 'frontend.version', 'disposition_for_dBVVysC8x4Ymwg9rtjMckgw9', 'db.system', 'event_name', 'organization', 'auth.logout', 'organizations', 'name', 'net.transport', 'db.operation', 'disposition_for_UvsPPBVUn9FDuzDjsjYCqopq', 'disposition_for_1RUGSd7GdnP5tuKdgqBRZUm2', 'process.pid', 'disposition_for_6uyAoBc3PuvEcTTPFgPM3Rtk', 'exception.stacktrace', 'data_ingestion_individuals_count', 'disposition_for_qrnUBUz8YBfNX7Liekq6nKi3', 'task_type.type', 'disposition_for_JQDNbuUdaQcEbEwQNxUbV5EF', 'disposition_for_rAcWoXfbHw4eWoJFH4ZcY8ue', 'disposition_for_eShqQoC9jUi9VQBidpp2oXHP', 'parent_name', 'template', 'graphql.operation.name', 'span.num_links', 'disposition_for_kNSPtvsCWkDoEyFP2QE6VPmQ', 'disposition_for_UUqf9L1qkFxDNEvcgsVMA2yy', 'disposition_for_vwbbN76HZ7uitLubvkUjPFQE', 'disposition_for_aAto1pGrdF5RunpSX8sY5hvn', 'disposition_for_UbKCMdnkPQ6TuHrfdBo5juZu', 'disposition_for_QfrvmoHxSgLPJXPKZCrZfGo8', 'disposition_for_NoKSSruBRCX6UG28PzmkybUd', 'disposition_for_UZAqvZ5XVBZjKKWuMeRkRayS', 'organization_token', 'duration_ms', 'trace.parent_id', 'db.statement', 'exception.message', 'error', 'service.name', 'http.status_code', 'http.route']"
+        },
+        {
+            "from": "gpt",
+            "value": "\n{\"breakdowns\": [\"http.method\"], \"calculations\": [{\"op\": \"COUNT\"}], \"time_range\": 7200}"
+        }
+    ]
+}
